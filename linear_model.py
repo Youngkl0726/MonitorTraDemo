@@ -52,18 +52,3 @@ print("a is: {}, b is: {}".format(a2,b2))
 # print(regr.predict(x))
 print(np.sum(a2 * x1) + b2)
 print(np.sum(a2 * x2) + b2)
-
-
-# 画图
-# fig = plt.figure()
-# ax = fig.gca(projection='3d')
-
-# 1.画出真实的点
-# ax.scatter(xx, yy, zz)
-
-# 2.画出拟合的平面
-# ax.plot_wireframe(xx, yy, regr.predict(X).reshape(10,10))
-# ax.plot_surface(xx, yy, regr.predict(X).reshape(10,10), alpha=0.3)
-
-
-# plt.show()
